@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="logo__alura">
+            <a href="https://www.alura.com.br/"><img src="./logo.png" alt="logo alura"></a>
+        </div>
+        
+        <section class="container__principal">  
+            <div class="container__texto">
+                <textarea class="digitacao" cols="50" rows="10" wrap="hard" maxlength="255" placeholder="Digite seu texto"></textarea> 
+                <p class="container__subtexto">&#9888;letras maiúsculas e caracteres especiais não serão aceitos.</p>
+            </div>
+
+            <div class="container__botoes">
+                <button onclick="criptografar()" class="criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="descriptografar" >Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="container__visor">
+            <img src="./ia.png"alt="Uma pessoa olhando para a esquerda" class="container__imagem" >
+            <h1 class="principal">Nenhuma mensagem encontrada</h1>
+            <p class="sub__titulo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button onclick="copiar()" class="copiar">Copiar</button>
+        </section>      
+    </main>
+    
+    <footer class="container__rodape">
+        <p>&#9880; Kalini Veloso</p>
+        <a class="links" href="https://github.com/KaliniV">Github</a>
+        <p>|</p>
+        <a class="links" href="https://www.linkedin.com/in/kalini-veloso-69b817181/">Linkedin</a>
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
