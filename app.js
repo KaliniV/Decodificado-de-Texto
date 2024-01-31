@@ -18,6 +18,7 @@ function criptografar(){
         document.querySelector('.container__imagem').style.display = 'block';
         exibirTexto('.principal', 'Nenhuma mensagem encontrada')
         document.querySelector('.sub__titulo').style.display = 'block';
+        exibirTexto('.sub__titulo', 'Digite um texto que você deseja criptografar ou descriptografar.') 
         document.querySelector('.copiar').style.display='none';
     }
 }
@@ -34,6 +35,7 @@ function descriptografar(){
         document.querySelector('.container__imagem').style.display = 'block';
         exibirTexto('.principal', 'Nenhuma mensagem encontrada')
         document.querySelector('.sub__titulo').style.display = 'block';
+        exibirTexto('.sub__titulo', 'Digite um texto que você deseja criptografar ou descriptografar.') 
         document.querySelector('.copiar').style.display='none';
     }
 }
