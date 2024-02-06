@@ -130,25 +130,3 @@ body{
     font-weight: 400;
 
 }
-.links{
-    width: 100px;
-    text-decoration: none;
-}
-@media (max-width:1200px){
-
-    .container{
-        
-        flex-direction: column;
-        align-items: center;
-        padding: 5%;
-    }
-    .container__principal{
-        width: auto;
-    }
-    .container__visor{
-        width: 50%;
-    }
-    .rodape{
-        padding: 10%;
-    }
-}
