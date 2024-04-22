@@ -16,7 +16,7 @@ Este é um simples programa de criptografia e descriptografia desenvolvido em Ja
 
 ## Pré-requisitos
 
-Nenhuma instalação adicional é necessária. Basta abrir o arquivo HTML em um navegador web para executar o programa.
+Nenhuma instalação adicional é necessária. Basta abrir o arquivo HTML em um navegador web para executar o programa. Ou você pode acessar por [aqui](https://kaliniv.github.io/decodificador-de-texto/)
 
 ## Interface
 
