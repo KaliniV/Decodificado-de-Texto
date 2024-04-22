@@ -18,7 +18,7 @@ Este é um simples programa de criptografia e descriptografia desenvolvido em Ja
 
 Nenhuma instalação adicional é necessária. Basta abrir o arquivo HTML em um navegador web para executar o programa. 
 
-Você pode acessar por [aqui](https://kaliniv.github.io/decodificador-de-texto/).
+Você também pode acessar por [aqui](https://kaliniv.github.io/decodificador-de-texto/).
 
 ## Interface
 
